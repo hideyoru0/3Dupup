@@ -16,7 +16,7 @@ public class PrefabGameManager : MonoBehaviour
         //Instantiate(mapList[2]);
 
         // 맵을 필요한 만큼 생성하고 랜덤한 위치값을 가지게 한다.
-        for(int i = 0; i < 100; i++)
+        for(int i = 0; i < 200; i++)
         {
             int randomCount = Random.Range(0, 3000) % 3;
             var position = new Vector3(Random.Range(-100.0f, 1.0f), Random.Range(100.0f, 1.0f), Random.Range(100.0f, 1.0f));
